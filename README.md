@@ -102,6 +102,11 @@ const App = () => {
         <button onClick={() => handleClick(".")}>.</button>
         <button className="equal" onClick={calculateResult}>=</button>
       </div>
+      <footer>
+        
+        <p>Created by DAPPILI VASAVI</p>
+        <p>&copy; 212223040030</p>
+      </footer>
     </div>
     
   );
@@ -193,16 +198,20 @@ button:hover {
   text-align: left;
   padding-left: 30px;
 }
+footer {
+  padding: 20px;
+
+  text-align: center;
+  color:white;
+}
 
 ```
 
 
 ## OUTPUT
-![Screenshot 2025-03-28 205419](https://github.com/user-attachments/assets/1e04133b-87aa-44cd-80d1-d8bbfbcc9167)
-
-![Screenshot (232)](https://github.com/user-attachments/assets/8c955808-d8d1-4f16-910d-98b9eb590d88)
-
-![Screenshot (235)](https://github.com/user-attachments/assets/cf560c07-4d5e-4e12-bf5f-9d8afeb92218)
+![Screenshot (236)](https://github.com/user-attachments/assets/7504029a-f1be-4e6a-b4e6-4a55dfe37310)
+![Screenshot (237)](https://github.com/user-attachments/assets/03d9b80d-d5fc-438a-8336-2a4129c73ccf)
+![Screenshot (238)](https://github.com/user-attachments/assets/9a84e93c-6075-4471-a5c4-d287f5a67d22)
 
 
 
